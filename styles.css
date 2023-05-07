@@ -1,0 +1,105 @@
+#main {
+  background-color: #121313;
+  margin: 20px 9px;
+  border-radius: 0.9%;
+  color: white;
+}
+
+#tribute-info {
+  margin: auto;
+  width: 600px;
+}
+#tribute-info h2 {
+  text-align: center;
+  margin: 20px;
+}
+
+a {
+  color: white;
+}
+
+#div-title {
+  text-align: center;
+  padding: 10px;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+
+  margin: auto;
+  border-radius: 0.9%;
+}
+
+#img-caption {
+  padding-bottom: 20px;
+}
+
+#div-title {
+}
+#img-in-div1,
+#img-in-div2 {
+  margin: 10px auto;
+  display: inline-block;
+}
+
+#img-div {
+  /*border: solid;*/
+  position: relative;
+  background-color: #1e1f1f;
+  margin: 10px;
+  border-radius: 0.9%;
+  text-align: center;
+  align-self: center;
+}
+
+.ul1 {
+  list-style-position: outside;
+  /*list-style-type: circle;*/
+
+  padding: 20px;
+}
+
+/*li{
+  margin: 11px 0px;
+  
+}*/
+
+ul {
+  display: block;
+  margin-left: -10px;
+}
+
+ul li {
+  display: block;
+  position: relative;
+}
+
+ul li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+ul li:before {
+  content: "";
+  position: absolute;
+  top: 1.2em;
+  left: -30px;
+  margin-top: -0.9em;
+  background: #4c4c4c;
+  height: 10px;
+  width: 10px;
+  border-radius: 30%;
+}
+
+
+.q{
+  margin: 30px;
+  padding-bottom: 5px;
+}
+
+
+.wiki{
+  text-align: center;
+  padding-bottom: 30px;
+}
